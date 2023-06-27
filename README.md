@@ -1,6 +1,6 @@
 # Random Video Calling App
 
-A random video calling app allows users to connect with people from all over the world. It promotes social interaction, breaks geographical barriers, and fosters global communication. Such an app can facilitate networking opportunities by enabling users to meet new people and expand their personal and professional connections. It can be particularly useful for individuals in industries like business, entrepreneurship, or creative fields.
+A random video calling app allows users to connect with people from all over the world. It promotes social interaction, breaks geographical barriers, and fosters global communication. Such an app can facilitate networking opportunities by enabling users to meet new people and expand their personal and professional connections. 
 
 The app leverages the power of WebRTC (Web Real-Time Communication) technology to facilitate smooth and seamless peer-to-peer video and audio communication. By utilizing WebRTC, users can engage in real-time video calls without the need for intermediate servers, ensuring direct and efficient communication between participants. This technology enables high-quality, low-latency video and audio streams, enhancing the overall user experience.
 
