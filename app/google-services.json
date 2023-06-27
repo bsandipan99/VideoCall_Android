@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "626952207344",
+    "project_id": "random-video-call-ddb2f",
+    "storage_bucket": "random-video-call-ddb2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626952207344:android:a6008f2831caa016dafb35",
+        "android_client_info": {
+          "package_name": "com.appsians.strangers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626952207344-lt3uv3gautu4k6q5efrk4om2jqvampqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsians.strangers",
+            "certificate_hash": "f45392a74c2d763b241c10ef7746c8fca15a7e2b"
+          }
+        },
+        {
+          "client_id": "626952207344-mlv0vo2g83189rvo2lqdd7uc5knpg9jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9n-XfHrWG_aohCGwTTNw2nCyXfcjyS_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626952207344-dcickp0f53k6o0jmot9eecjildmsndqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
