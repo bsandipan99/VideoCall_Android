@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'com.google.gms.google-services'
 android {
-    namespace 'com.appsians.strangers'
+    namespace 'com.appsians.VideoCall'
 
     compileSdkVersion 33
     buildToolsVersion "30.0.3"
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.appsians.strangers"
+        applicationId "com.appsians.VideoCall"
         minSdkVersion 19
         targetSdkVersion 33
         versionCode 1

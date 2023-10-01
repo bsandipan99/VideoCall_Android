@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/connecting_gradient"
+    android:background="@color/white"
     tools:context=".activities.ConnectingActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="Searching.."
+        android:text="Searching..."
         android:textColor="#000000"
         android:textSize="26sp"
         android:textStyle="italic"
