@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:626952207344:android:a6008f2831caa016dafb35",
         "android_client_info": {
-          "package_name": "com.appsians.strangers"
+          "package_name": "com.appsians.VideoCall"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "626952207344-lt3uv3gautu4k6q5efrk4om2jqvampqk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.appsians.strangers",
+            "package_name": "com.appsians.VideoCall",
             "certificate_hash": "f45392a74c2d763b241c10ef7746c8fca15a7e2b"
           }
         },

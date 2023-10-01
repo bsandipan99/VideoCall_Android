@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.appsians.strangers">
+    package="com.appsians.VideoCall">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -17,10 +18,10 @@
         android:theme="@style/Theme.Strangers"
         tools:targetApi="33">
 
-        <activity android:name=".activities.CallActivity" />
-        <activity android:name=".activities.ConnectingActivity"></activity>
-        <activity android:name=".activities.LoginActivity" />
-        <activity android:name=".activities.WelcomeActivity"
+        <activity android:name="com.appsians.VideoCall.activities.CallActivity" />
+        <activity android:name="com.appsians.VideoCall.activities.ConnectingActivity"></activity>
+        <activity android:name="com.appsians.VideoCall.activities.LoginActivity" />
+        <activity android:name="com.appsians.VideoCall.activities.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity" />
+        <activity android:name="com.Sandipan.VideoCall.activities.MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

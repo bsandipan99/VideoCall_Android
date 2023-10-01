@@ -30,10 +30,10 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.469"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
+        app:layout_constraintVertical_bias="0.685" />
 
     <TextView
         android:id="@+id/textView6"
@@ -51,7 +51,7 @@
 
     <LinearLayout
         android:id="@+id/loginBtn"
-        android:layout_width="339dp"
+        android:layout_width="319dp"
         android:layout_height="58dp"
         android:background="@drawable/white_rounded_bg"
         android:gravity="center"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832">
+        app:layout_constraintVertical_bias="0.775">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -92,7 +92,7 @@
         app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
+        app:layout_constraintVertical_bias="0.339"
         app:srcCompat="@drawable/login_image" />
 
     <TextView
@@ -100,16 +100,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="cursive"
-        android:text="Welcome"
+        android:text="Authentication"
         android:textColor="#000000"
-        android:textSize="38sp"
-        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.078" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

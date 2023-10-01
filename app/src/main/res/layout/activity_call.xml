@@ -75,7 +75,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_light"
-                android:text="Sandipan Bera"
                 android:textColor="@color/white"
                 android:textStyle="bold" />
 
@@ -84,7 +83,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto_light"
-                android:text="Kolkata"
                 android:textColor="@color/white"
                 android:textSize="10sp" />
         </LinearLayout>
@@ -106,22 +104,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@color/white" />
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/loadingAnimation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/webView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/loading" />
-
     <androidx.constraintlayout.widget.Group
         android:id="@+id/loadingGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="visible"
-        app:constraint_referenced_ids="loadingAnimation,connectingImage" />
+        app:constraint_referenced_ids="connectingImage" />
 </androidx.constraintlayout.widget.ConstraintLayout>
